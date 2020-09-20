@@ -10,7 +10,7 @@ banner = """
  ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
                                                                                                                          
                                               -By Rand-
- 
+
 print(banner) 
 wh_link = input("Enter Webhook Link: ")
 requests.delete(wh_link)
